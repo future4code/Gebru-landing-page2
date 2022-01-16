@@ -1,6 +1,52 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
     background-color: #AF323B;
-    color: #FFBABF;
+
+}
+
+.formulario-contato {
+    width: 100%;
+}
+
+form {
+    width: 25%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px whitesmoke;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1em;
+    font: 1em small-caption;
+    border: 1px solid whitesmoke;
+}
+
+label {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px whitesmoke;
+    cursor: pointer;
+}
+
+.contato {
+    text-align: center;
+    margin-bottom: 15px;
 }
