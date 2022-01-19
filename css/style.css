@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
     background-color: #AF323B;
-    color: #FFBABF;
+    font-family: 'Trebuchet MS', sans-serif;
 }
