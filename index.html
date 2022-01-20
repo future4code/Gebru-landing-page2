@@ -5,31 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/index.js" defer></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+  crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>LandingPage</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>QUEM SOMOS</li>
-                <li>O QUE OFERECEMOS</li>
-                <li>CONTATO</li>
-            </ul>
-        </nav>
-        <div>EMPRESAS</div>
-        <div>VOCÊ</div>
-        <div>MOTORISTAS</div>
+    <header>   
+        <div id="topo"></div>
+        <section class="menu-container header">
+            <img class="logo" src="img/Log4.png" alt="LOGO">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#topo" id="button"><button onclick="topFunction()" id="meuBtn">TOP</button></a></li>
+                    <li><a href="#quem-somos">QUEM SOMOS</a></li>
+                    <li><a href="#servicos">O QUE OFERECEMOS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="titulo">
+            <h1>Entregas rapidas quando precisar</h1>
+            <p>A Log4 entrega o que você precisar, 24/7, te conectando a milhares de motoristas parceiros com veículos de vários tamanhos.</p>
+        </section>
+        <section class="cards">
+            <div class="card">
+               <h2>PARA EMPRESAS</h2> 
+                <p>Gaste menos com logística e entregue no mesmo dia</p>
+                <a href="">Saiba mais</a>
+            </div>
+            <div class="card" id="card-midlle">
+                <h2>PARA VOCÊ</h2>
+                <p>Peça um veículo sem complicação sempre que precisar
+                </p>
+                <a href="">Descubra mais</a>
+            </div>
+            <div class="card">
+                <h2>MOTORISTAS</h2>
+                <p>Entregue com a Log4 e complemente sua renda
+                </p>
+                <a href="">Entregue com a gente</a>
+            </div>
+        </section>
     </header>
     <main>
-        <section>
+        <section id="quem-somos">
             <h1>BANNER QUEM SOMOS</h1>
         </section>
         <section>
             <h1>BANNERs COM PARALLAX</h1>
         </section>
-        <section>
+        <section id="servicos">
             <h1>BANNER O QUE OFERECEMOS</h1>
+
         </section>
         <section>
             <h1>BANNER RASTREAMENTO DO PRODUTO</h1>
@@ -37,22 +69,7 @@
         <section>
             <h1>NOSSOS PREÇOS</h1>
         </section>
-        <section>
-            <h2 class="contato">CONTATO</h2>
-        </section>
-        <section class="formulario-contato">
-             <form class="card">
-                 <label for="inputNome">Nome:</label>
-                 <input type="text" id="inputNome">
 
-                 <label for="inputEmail">E-Mail :</label>
-                 <input type="email" id="inputEmail">
-
-                 <label for="Mensagem">Mensagem :</label>
-                 <textarea name="Mensagem" id="Mensagem"></textarea>
-
-                 <button>Enviar Mensagem</button>
-             </form>
         </section>
     </main>
     <footer>
