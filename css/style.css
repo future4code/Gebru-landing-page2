@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,23 +6,13 @@
     color: #FFBABF;
 }
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  
+
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#imagem {
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    border-radius: 8%;
-    background-color: white;
-}
-
-#log4{
-    align-items: center;
-    max-width: 90%;
-    max-height: 90%;
-    
+body {
+    background-color: #AF323B;
 }
