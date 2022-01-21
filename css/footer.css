@@ -1,0 +1,51 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+#imagem {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8%;
+    background-color: white
+}
+
+#log4{
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8%;
+}
+
+#tabelaFooter {
+    font-size: 20px;
+    
+}
+
+#logos {
+    display: flex;
+    align-content: space-between;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    
+}
+
+#logo {
+    height: 100%;
+    width: 80%;
+    border-radius: 360%;
+   
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+#tabelaFooter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
