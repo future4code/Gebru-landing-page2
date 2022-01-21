@@ -52,7 +52,7 @@ function smoothScrollTo(endX, endY, duration) {
   }, 1000 / 60); // 60 fps
 };
 
-// EFEITO AO ROLAR A PAGINA
+// EFEITO DE TRANSPARENCIA NO BACKGROUND AO ROLAR A PAGINA
 
 $(window).scroll(function() { 
   let scroll = $(window).scrollTop();
@@ -76,10 +76,10 @@ $(window).scroll(function() {
 
 // 
 
-//Get the button
+//GERERAR BUTÃO
 const mybutton = document.getElementById("meuBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// QUANDO A PAGINA FOR ROLADA A MAIS DE 20PX DO TOPO, MOSTRA O BOTÃO
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -90,7 +90,7 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// QUANDO O USUARIO CLICAR NO BOTÃO ROLE ATÉ O TOPO DA PAGINA
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
