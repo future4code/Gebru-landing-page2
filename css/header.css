@@ -20,6 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: background-color 1s;
+    z-index: 2;
 }
 
 .logo {
@@ -46,6 +47,7 @@ header {
     border: none;
     outline: none;
     background-color: whitesmoke;
+    border: 2px solid #AF323B;
     color: #AF323B;
     cursor: pointer;
     padding: 15px;
@@ -73,7 +75,7 @@ nav ul {
 
 nav ul li a {
     color: whitesmoke;
-    margin: 0 20px;
+    margin: 0 2vw;
     padding: 5px;
     text-decoration: none;
     text-shadow: 0.1em 0.1em 0.2em #AF323B;;
@@ -104,6 +106,7 @@ nav ul li a:link, nav ul li a:visited {
     display: flex;
     justify-content: space-around;
     margin-bottom: -20vh;
+    z-index: 1;
 }
 
 .card {
@@ -122,7 +125,7 @@ nav ul li a:link, nav ul li a:visited {
 
 .card a {
     align-self: flex-end;
-    margin-right: 4%;
+    padding-right: 4%;
     color: whitesmoke;
 }
 
