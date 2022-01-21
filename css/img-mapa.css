@@ -1,0 +1,19 @@
+
+
+#imagem-cobertura {
+    display: flex;
+    justify-content: center;
+}
+
+#imagem-cobertura img {
+    width: 96vw;
+}
+
+#imagem-cobertura2 {
+    display: flex;
+    justify-content: center;
+}
+
+#imagem-cobertura2 img {
+    width: 92vw;
+}
