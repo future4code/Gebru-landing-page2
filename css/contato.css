@@ -1,0 +1,71 @@
+#contato {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 100%;
+}
+
+.formulario-contato {
+    width: 50vw;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+}
+
+#form-label {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 2%;
+}
+
+#mensagem-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#mensagem {
+    width: 45vw;
+    height: 15vh;
+    margin-top: 2%;
+}
+
+#submit {
+    width: 20vw;
+    height: 5vh;
+    align-self: center;
+    border-radius: 10px;
+}
+
+@media  screen and (min-width: 540px) and (max-width: 860px){
+    .formulario-contato {
+        width: 60vw;
+    }
+
+    #mensagem {
+        width: 55vw;
+    }
+}
+
+@media  screen and (max-width: 540px){
+    .formulario-contato {
+        width: 65vw;
+    }
+
+    #mensagem {
+        width: 60vw;
+    }
+
+    #submit {
+        width: 40vw;
+    }
+}

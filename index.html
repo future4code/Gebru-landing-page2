@@ -11,7 +11,6 @@
   crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>LandingPage</title>
 </head>
@@ -71,19 +70,23 @@
             <h1>NOSSOS PREÇOS</h1>
         </section>
         <section id="contato">
-            <h2 class="contato">CONTATO</h2>
+            <h1>CONTATO</h1>
             <div class="formulario-contato">
-                <form class="card">
-                    <label for="inputNome">Nome:</label>
-                    <input type="text" id="inputNome">
+                <form class="card-form">
+                    <div id="form-label">
+                        <label for="inputNome">Nome:</label>
+                        <input type="text" id="inputNome">
+                    </div>
+                    <div id="form-label">
+                        <label for="inputEmail">E-Mail :</label>
+                        <input type="email" id="inputEmail">
+                    </div>
+                    <div id="mensagem-label">
+                        <label for="mensagem">Mensagem :</label>
+                        <textarea name="mensagem" id="mensagem"></textarea>
+                    </div>
 
-                    <label for="inputEmail">E-Mail :</label>
-                    <input type="email" id="inputEmail">
-
-                    <label for="Mensagem">Mensagem :</label>
-                    <textarea name="Mensagem" id="Mensagem"></textarea>
-
-                    <button>Enviar Mensagem</button>
+                    <button id="submit" type="submit">Enviar Mensagem</button>
                 </form>
             </div>
         </section>

@@ -1,6 +1,7 @@
 
 /* EXPLICAÇÕES */
 header {
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,7 +15,7 @@ header {
 .menu-container {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +59,7 @@ header {
 }
 
 nav {
-    padding: 20px 0;
+    padding: 2% 2% 2% 0;
     font-size: 3vw;
     font-family: fantasy;
 }
@@ -86,7 +87,7 @@ nav ul li a:link, nav ul li a:visited {
     width: 50vw;
     max-height: 80vh;
     text-align: left;
-    margin: 2vw 0 0 5vw;
+    padding: 2vw 0 0 5vw;
     color: whitesmoke;
 }
 
@@ -133,4 +134,81 @@ nav ul li a:link, nav ul li a:visited {
 
 #card-midlle a {
     color: #AF323B;
+}
+
+@media  screen and (min-width: 540px) and (max-width: 840px){
+    header {
+        margin-bottom: 110vh;
+    }
+
+    nav {
+        font-size: 4.5vw;
+    }
+
+    .titulo {
+        width: 95vw;
+        margin: 20% 0 5% 0;
+    }
+
+    .titulo h1 {
+        font-size: 10vw;
+    }
+    
+    .titulo p {
+        width: 70%;
+        font-size: 5.5vw;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card {
+        width: 65vw;
+        margin-bottom: 5%;
+        font-size: 200%;
+    }
+}
+
+@media  screen and (max-width: 540px) {
+    header {
+        display: grid;
+        background-size: 100vw 70vh;
+        background-repeat: no-repeat;
+        margin-bottom: 65vh;
+    }
+
+    nav {
+        font-size: 4.5vw;
+    }
+
+    .titulo {
+        width: 95vw;
+        margin: 20% 0;
+    }
+
+    .titulo h1 {
+        font-size: 10vw;
+    }
+    
+    .titulo p {
+        width: 70%;
+        font-size: 5.5vw;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card {
+        width: 80vw;
+        margin-bottom: 5%;
+        font-size: 130%;
+    }
 }
