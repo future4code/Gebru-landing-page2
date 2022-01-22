@@ -13,7 +13,7 @@
 - [x] Responsividade
 
 ### 🌐  LINK DO PROJETO
-<a href="https://projetolandingpage.web.app" target="_blank">LANDINGPAGE2</a>
+- [LANDINGPAGE2](https://projetolandingpage.web.app/?target=_blank)
 
 ### 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
