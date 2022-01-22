@@ -1,9 +1,12 @@
-<h1 align="center">Log4</h1>
+<h1 align="center">
+	<img src="https://projetolandingpage.web.app/img/Log4.png" width="150px">
+</h1>
+
 <p align="center">Layout LandingPage para uma empresa de transportes e logistica "FICTICIA"</p>
 
-<h4 align="center"> 
+<h3 align="center"> 
 	⚠️  Pagina em conclusão!  ⚠️
-</h4><br>
+</h3><br>
 
 ### 🔰	 Recursos
 
