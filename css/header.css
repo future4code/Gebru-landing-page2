@@ -1,0 +1,217 @@
+
+/* EXPLICAÇÕES */
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/topImg.png);
+    background-size: 100vw 100vh;
+    color: #AF323B;
+    margin-bottom: 30vh;
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 1s;
+    z-index: 2;
+}
+
+.logo {
+    width: 8vw;
+    padding-left: 5vw;
+}
+
+.logo-auxiliar {
+    width: 4vw;
+}
+
+.menu-auxiliar {
+    height: 10vh;
+    background-color:rgba(245, 245, 245, 0.678);
+}
+
+#meuBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    border: 2px solid #AF323B;
+    color: #AF323B;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#meuBtn:hover {
+    background-color: #AF323B;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+nav {
+    padding: 2% 2% 2% 0;
+    font-size: 3vw;
+    font-family: fantasy;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    margin: 0 2vw;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: 0.1em 0.1em 0.2em #AF323B;;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    text-decoration: none;
+}
+
+.titulo {
+    width: 50vw;
+    max-height: 80vh;
+    text-align: left;
+    padding: 2vw 0 0 5vw;
+    color: whitesmoke;
+}
+
+.titulo h1 {
+    font-size: 6vw;
+}
+
+.titulo p {
+    width: 70%;
+    font-size: 1.5vw;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -20vh;
+    z-index: 1;
+}
+
+.card {
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1vw;
+    font-size: 1.5vw;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #AF323B;
+    border: 5px solid whitesmoke;
+}
+
+.card a {
+    align-self: flex-end;
+    padding-right: 4%;
+    color: whitesmoke;
+}
+
+#card-midlle {
+    color: #AF323B;
+    background-color: whitesmoke;
+    border: 5px solid #AF323B;
+}
+
+#card-midlle a {
+    color: #AF323B;
+}
+
+@media  screen and (min-width: 540px) and (max-width: 840px){
+    header {
+        margin-bottom: 110vh;
+    }
+
+    nav {
+        font-size: 4.5vw;
+    }
+
+    .titulo {
+        width: 95vw;
+        margin: 20% 0 5% 0;
+    }
+
+    .titulo h1 {
+        font-size: 10vw;
+    }
+    
+    .titulo p {
+        width: 70%;
+        font-size: 5.5vw;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card {
+        width: 65vw;
+        margin-bottom: 5%;
+        font-size: 200%;
+    }
+}
+
+@media  screen and (max-width: 540px) {
+    header {
+        display: grid;
+        background-size: 100vw 70vh;
+        background-repeat: no-repeat;
+        margin-bottom: 65vh;
+    }
+
+    nav {
+        font-size: 4.5vw;
+    }
+
+    .titulo {
+        width: 95vw;
+        margin: 20% 0;
+    }
+
+    .titulo h1 {
+        font-size: 10vw;
+    }
+    
+    .titulo p {
+        width: 70%;
+        font-size: 5.5vw;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card {
+        width: 80vw;
+        margin-bottom: 5%;
+        font-size: 130%;
+    }
+}

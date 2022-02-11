@@ -1,0 +1,157 @@
+main {
+    z-index: 0;
+}
+
+#imagem-cobertura {
+    display: flex;
+    justify-content: center;
+}
+
+#imagem-cobertura img {
+    width: 96vw;
+}
+
+#imagem-cobertura2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -30vh;
+    background-color: whitesmoke;
+}
+
+#imagem-cobertura2 img {
+    width: 92vw;
+}
+
+.texto-quem-somos {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh 0;
+    color: whitesmoke;
+}
+
+.texto-quem-somos h1 {
+    font-size: 3em;
+}
+
+.texto-quem-somos .texto {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em; 
+}
+
+.texto-quem-somos .texto p {
+    padding: 2vh 0;
+}
+
+.banner2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 0 5vh 0;
+    padding: 0 3vw;
+    color: #AF323B;
+}
+
+#texto-banner2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 1vw;
+    background-color: lightgray;
+}
+
+#texto-banner2 h1 {
+    font-size: 3.2em;
+}
+
+#texto-banner2 p {
+    width: 12vw;
+    font-size: 1.2em;
+}
+
+#texto-sobre-img {
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 10vh;
+    text-align: center;
+    color: #AF323B;
+}
+
+#texto-sobre-img h1 {
+    font-size: 4.5em;
+}
+
+#texto-sobre-img #texto {
+    display: flex;
+    flex-direction: column;
+}
+
+#texto-sobre-img p {
+    width: 40vw;
+    font-size: 2.5em;
+}
+
+.texto-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.servicos {
+    margin: 4vh 0;
+}
+
+.servicos h2 {
+    margin: 2vh 0;
+}
+
+@media screen and (max-width: 540px){
+    #imagem-cobertura2 {
+        margin: -10vh 0 5vh 0;
+    }
+    #texto-sobre-img {
+        margin-top: 3vh;
+    }
+    #texto-sobre-img h1 {
+        font-size: 1.5em;
+    }   
+    #texto-sobre-img p {
+        font-size: 0.8em;
+    }
+
+    .banner2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60vh 0 10vh 0;
+        background-color: lightgray;
+    }
+
+    .banner2 #texto-banner2 {
+        width: 80vw;
+        height: 3vh;
+        padding-top: 1vh;
+    }
+
+    .banner2 #texto-banner2 h1 {
+        font-size: 1.2em;
+    }
+
+    .banner2 #texto-banner2 p {
+        width: 50vw;
+    }
+
+    .banner2 img {
+        width: 40vw;
+        height: 20vh;
+    }
+    .servicos {
+        padding: 0 2vw;
+    }
+}
